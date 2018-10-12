@@ -18,6 +18,7 @@ mkdir -p src/github.com/prometheus
 ln -s ../../../ src/github.com/prometheus/promu
 
 %build
+export GOPATH=$(pwd):%{gopath}
 make build
 
 %install
