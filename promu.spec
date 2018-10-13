@@ -22,7 +22,7 @@ export GOPATH=$(pwd):%{gopath}
 make build
 
 %install
-install -D -p -m 0755 promu %{buildroot}/bin/promu
+install -D -p -m 0755 promu-%{version} %{buildroot}/bin/promu
 
 %files
 /bin/promu
