@@ -1,6 +1,6 @@
 Name:           promu
 Version:        0.1.0
-Release:        2
+Release:        3
 Summary:       	Promu is the utility tool for Prometheus projects
 Source0:	https://github.com/prometheus/promu/archive/v%{version}.tar.gz
 License:        ASL 2.0
